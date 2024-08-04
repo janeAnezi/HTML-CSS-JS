@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: rgb(72, 72, 39);
+    text-align: center;
+    color: gold;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* font-family: 'Dancing Script'; */
+    /* font-family: 'Kalnia Glaze' ; */
+} 

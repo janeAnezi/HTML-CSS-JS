@@ -1,0 +1,51 @@
+body {
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background: peachpuff;
+    line-height: 1.4;
+    color: rgb(37, 54, 8);
+}
+h1 {
+    font-size: 2rem;
+    padding: 0.5em;
+    border: 2.5px solid seagreen;
+    outline: 2px solid brown;
+    outline-offset: 4px;
+}
+p {
+    width: 35ch;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border: 2.5px solid green;
+    margin: 5px auto;
+    border-radius: 15px;
+    outline: 2px solid olive;
+    outline-offset: 4px;
+}
+a {
+    text-decoration: none;
+    color: #0a5fb5;
+}
+a:visited {
+    color: brown;
+}
+a:hover, a:focus {
+    color: #1e8fffa8;
+}
+ol {
+    list-style-type: decimal;
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol li:nth-child(odd) {
+    color: darkred;
+}
+
+::marker {
+    color: #000;
+    /* content: "only $3>>  "; */
+}
