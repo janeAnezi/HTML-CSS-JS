@@ -2,7 +2,7 @@ let containerEl = document.querySelector('.container');
 // containerEl.style.backgroundColor = 'yellow';
 
 
-const careers = ['Software developer', 'Web Developer', 'Freelancer', 'Instructor'];
+const careers = ['Software developer','Engineer', 'Web Developer', 'Freelancer', 'Instructor'];
 
 
 
@@ -15,7 +15,7 @@ updateCareers()
 
 function updateCareers() {
     characterIndex++;
-    containerEl.innerHTML = `<h1> I am a ${careers[careerIndex].slice(0, characterIndex)}</h1>`;
+    containerEl.innerHTML = `<h1> I am ${careers[careerIndex].slice(0,1)=== 'I' || careers[careerIndex].slice(0,1)=== 'E' ? 'an' : 'a'} ${careers[careerIndex].slice(0, characterIndex)}</h1>`;
    
     
     if ( characterIndex === careers[careerIndex].length ) {
