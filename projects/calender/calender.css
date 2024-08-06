@@ -13,6 +13,11 @@ body {
     align-items: center;
     font-family: cursive;
 }
+#timer {
+    font-size: 18px;
+    padding: 5px 0;
+    color: rgb(146, 185, 158);
+}
 .calender-container {
     background-color: rgb(224, 223, 221);
     width: 300px;
