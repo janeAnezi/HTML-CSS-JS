@@ -36,13 +36,16 @@ const year = document.getElementById('year')
 function timeUntilMidnight() {
     // Get the current time
     let now = new Date();
+    console.log(`This is the time now ${now}`);
     
     // Calculate the next midnight
     let midnight = new Date();
     midnight.setHours(24, 0, 0, 0); // Set time to 00:00:00 of the next day
-    
+    console.log(`this is midnight value, ${midnight}`);
+
     // Calculate the time difference in milliseconds
     let timeDifference = midnight - now;
+    console.log(timeDifference);
     
     // Convert the time difference to hours, minutes, and seconds
     let hours = Math.floor(timeDifference / (1000 * 60 * 60));
