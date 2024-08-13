@@ -22,4 +22,4 @@ const prevSlide = () => {
 document.querySelector('.next').addEventListener('click', nextSlide);
 document.querySelector('.prev').addEventListener('click', prevSlide);
 
-setInterval(nextSlide, 3000); // Auto-slide every 3 seconds
+setInterval(nextSlide, 4000); // Auto-slide every 3 seconds
