@@ -1,4 +1,6 @@
 let slideIndex = 0;
+
+
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
 
@@ -10,8 +12,8 @@ const showSlide = (index) => {
 };
 
 const nextSlide = () => {
-    slideIndex = (slideIndex + 1) % totalSlides;
-    showSlide(slideIndex);
+   slideIndex = (slideIndex + 1) % totalSlides;
+   showSlide(slideIndex);
 };
 
 const prevSlide = () => {
@@ -20,6 +22,13 @@ const prevSlide = () => {
 };
 
 document.querySelector('.next').addEventListener('click', nextSlide);
+
 document.querySelector('.prev').addEventListener('click', prevSlide);
 
-setInterval(nextSlide, 4000); // Auto-slide every 3 seconds
+setInterval(prevSlide, 3000); // Auto-slide every some seconds
+
+// this works too
+
+// setInterval(() => {
+//     nextSlide()
+// }, 2000);
